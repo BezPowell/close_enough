@@ -9,13 +9,10 @@ impl<T: Diff + Hash + Eq, V> Closest<T> for HashMap<T, V> {
         let mut keys: Vec<&T> = self.keys().into_iter().collect();
         keys.sort_by(|a, b| a.diff(to).cmp(&b.diff(to)));
 
-        for key in keys {
-            if self.get(key).is_some() {
-                return self.get(key);
-            }
+        match keys.first() {
+            Some(key) => self.get(key),
+            None => None,
         }
-
-        None
     }
 }
 
