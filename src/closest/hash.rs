@@ -16,6 +16,7 @@ impl<T: Diff + Hash + Eq, V> Closest<T> for HashMap<T, V> {
     }
 }
 
+#[cfg(test)]
 mod tests {
     use crate::closest::Closest;
     use std::collections::HashMap;
