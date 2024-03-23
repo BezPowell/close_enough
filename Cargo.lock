@@ -3,5 +3,5 @@
 version = 3
 
 [[package]]
-name = "close_enough"
+name = "near_enough"
 version = "0.1.0"

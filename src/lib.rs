@@ -10,7 +10,7 @@
 //! 
 //! ## Simple example with usize:
 //! ```
-//! use close_enough::Closest;
+//! use near_enough::Closest;
 //! 
 //! let values: [usize; 5] = [0, 1, 3, 5, 9];
 //! assert_eq!(values.closest(&2), Some(&1));
@@ -18,8 +18,8 @@
 //! 
 //! ## More complex example with custom type:
 //! ```
-//! use close_enough::Closest;
-//! use close_enough::Diff;
+//! use near_enough::Closest;
+//! use near_enough::Diff;
 //! 
 //! #[derive(Debug, Eq, PartialEq)]
 //! struct LengthString(String);

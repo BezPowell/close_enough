@@ -1,10 +1,10 @@
 [package]
-name = "close_enough"
+name = "near_enough"
 version = "0.1.0"
 edition = "2021"
 description = "Utilities for finding the difference between two values, and for getting the closest match from a set."
 license = "MIT OR Apache-2.0"
-repository = "https://github.com/BezPowell/close_enough"
+repository = "https://github.com/BezPowell/near_enough"
 readme = "README.md"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html

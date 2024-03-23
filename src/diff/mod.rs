@@ -18,7 +18,7 @@ pub trait Diff {
     /// Return the difference between self and other,
     /// as a type that implements Ord for sorting.
     /// ```
-    /// use close_enough::Diff;
+    /// use near_enough::Diff;
     /// 
     /// let a: u32 = 29;
     /// let b: u32 = 12;

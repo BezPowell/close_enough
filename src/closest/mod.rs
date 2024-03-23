@@ -9,7 +9,7 @@ pub trait Closest<T: Diff> {
 
     /// Return the closest match to a given search key.
     /// ```
-    /// use close_enough::Closest;
+    /// use near_enough::Closest;
     /// 
     /// let values: [usize; 5] = [0, 1, 3, 5, 9];
     /// assert_eq!(values.closest(&2), Some(&1));
